@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+h1.heading { /* Header (Sunset Park) */
+	text-align: center;
+	font-style: bold;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	line-height: 0px;
+	padding-top: 5px;
+	color: black;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+a {
+    color: black;
+	text-decoration: none;
+}
+
+a.heading:hover {
+	text-decoration: underline;
+	color: #D02B25; /** Red (Matching with Bag) **/
+	text-shadow: 5px 3px #FFD700; /** Gold**/
+}
+
+a.heading a:link a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+p.subtitle { /**(leif ericson park, chinatown, brooklyn);**/
+	text-align: center;
+	font-style: italic;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 0px;
+	padding-bottom: 5px;
+	color: #598530; /**Forest Green (Matching with Trees)**/
+}
+
+ul.nav, h2, h3, h5, h6 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-style: bold;
+}
+
+h4 { /* in-article subtitles */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-right: 70px; 
+    margin-left: 70px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    text-transform: lowercase;
+    border: dashed 2px;
+}
+ 
+#home {  /* Home Screen Image */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+	text-align: center;
+	object-fit: contain;
+	width: 1120px;
+	max-width: 100%;	
+}
+
+#gallery { /*JQuery Gallery #3*/
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 800px;
+	padding-bottom: 40px;
+	text-align: left;
+}
+
+li.leftlist { /* half of nav bar on the left */
+    float: left;
+}
+
+li.rightlist { /* half of nav bar on the right */
+	float: right;
+}
+
+li a.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+li.home {  /* match home button to the rest of the nav bar */
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+a:hover {
+	color: #D02B25; /*Red Links*/
+}
+
+.li a:hover, .dropdown:hover .dropbtn {
+    background-color: #e60000;; /* dark red navigation bar*/
+    color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFD700; /* gold dropdrown bars*/
+	color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+article {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 650px;
+	padding-bottom: 40px;
+	text-align: left;
+}
+
+div.content { /* Font and Size of body-text (Source Sans Pro) */
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+img.photogallery {
+	/*for 650px width*/
+	width: 323px;
+	height: 230px;
+}
+
+h3.headingthree {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-style: bold;
+	font-size: 25px;
+}
+
+footer {
+	padding: 0px;
+	color: black;
+	background-color: white;
+	clear: left;
+	text-align: center;
+	margin-right: 70px; 
+	margin-left: 70px;
+	text-transform: lowercase;
+}
