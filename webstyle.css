@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-jQuery.htmlPrefilter = function( html ) {
-	return html;
-};
-
 h1.heading { /* Header (Sunset Park) */
 	text-align: center;
 	font-style: bold;
